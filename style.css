@@ -1,0 +1,91 @@
+/* =====================
+        RULE
+===================== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 85%;
+    margin: auto;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* =====================
+        RULE
+===================== */
+
+/* =====================
+        HEADER
+===================== */
+
+header{
+    height: 150px;
+    background-color: palevioletred
+}
+
+/* =====================
+        HEADER
+===================== */
+
+/* =====================
+        MAIN
+===================== */
+
+.m1{
+    height: 500px;
+    background-color: goldenrod;
+    margin: 45px 0 45px;
+}
+
+.m2{
+    height: 1000px;
+    background-color: rgb(59, 144, 255);
+    margin-bottom: 10px;
+}
+
+.float-left{
+    float: left
+}
+
+.box-title{
+    height: 100px;
+    background-color: rgb(170, 207, 255);
+    margin-bottom: 40px;
+}
+
+.box-float{
+    height: calc(98% - 140px);
+    width: 20%;
+    background-color: rgb(170, 207, 255);
+}
+
+.box-float.center{
+    width: calc(60% - 40px);
+    height: calc(98% - 140px);
+    margin: 0 20px; 
+}
+
+/* =====================
+        HEADER
+===================== */
+
+/* =====================
+        FOOTER
+===================== */
+
+footer{
+    height: 60px;
+    background-color: rgb(77, 0, 107);
+}
+
+/* =====================
+        FOOTER
+===================== */
