@@ -10,7 +10,7 @@
 
 body{
     width: 85%;
-    margin: 30px auto 60px;
+    margin: 14px auto 45px;
 }
 
 .clearfix::after{
@@ -68,7 +68,7 @@ li:hover{
         MAIN
 ===================== */
 
-    /* MAIN RULES */
+    /* MAIN LAYOUT */
 
 .layer{
     width: 100%;
@@ -93,11 +93,10 @@ li:hover{
 
 .box-float.center{
     width: calc(60% - 40px);
-    height: calc(98% - 140px);
     margin: 0 20px; 
 }
 
-    /* SECTION 1 */
+    /* SECTION M1 */
 
 .m1{
     height: 500px;
@@ -123,42 +122,35 @@ li:hover{
     margin: 5px 0;
 }
 
-    /* SECTION 2 */
+    /* SECTION M2 */
 
 .m2{
     /* background-color: rgb(59, 144, 255); */
     margin-bottom: 10px;
 }
 
-.img-1{
+.image{
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    overflow: hidden;
     height: 200px;
+}
+
+.uno{
     background-image: url(../img/img-1.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px;
-    overflow: hidden;
 }
 
-.img-2{
-    height: 200px;
+.due{
     background-image: url(../img/banner-2.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px;
-    overflow: hidden;
 }
 
-.img-3{
-    height: 200px;
+.tre{
     background-image: url(../img/img-3.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px;
-    overflow: hidden;
 }
 
 .txt-float{
-    margin: 10px 0
+    margin: 20px 0
 }
 
 .txt-float > p{
